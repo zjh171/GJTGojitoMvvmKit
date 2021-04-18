@@ -1,13 +1,8 @@
-use_frameworks!
 
 platform :ios, '9.0'
+#use_frameworks!
 
 target 'GJTGojitoMvvmKit_Example' do
-  pod 'GJTGojitoMvvmKit', :path => '../'
 
-  target 'GJTGojitoMvvmKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'GJTGojitoMvvmKit', :path =>'../'
 end

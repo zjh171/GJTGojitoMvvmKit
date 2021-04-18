@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2203F18277384060DC45CBAA /* Pods_GJTGojitoMvvmKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913C87E9E654ADB36049FA1B /* Pods_GJTGojitoMvvmKit_Tests.framework */; };
-		44ECFDD1B53B9EA7EB6E8C1F /* Pods_GJTGojitoMvvmKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4267E0700DAF09CAAFD854 /* Pods_GJTGojitoMvvmKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* GJTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* GJTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* GJTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* GJTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +21,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9BA723852EFA3D997064E143 /* libPods-GJTGojitoMvvmKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FFC3E734CC0F43CCFCD444 /* libPods-GJTGojitoMvvmKit_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E4267E0700DAF09CAAFD854 /* Pods_GJTGojitoMvvmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTGojitoMvvmKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9AB40EB51D830076E5B93E /* Pods-GJTGojitoMvvmKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTGojitoMvvmKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GJTGojitoMvvmKit_Example/Pods-GJTGojitoMvvmKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		253ACA8C6DF2FE0366518F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2B25369D4DF40ED25EDDCEC2 /* Pods-GJTGojitoMvvmKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTGojitoMvvmKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GJTGojitoMvvmKit_Tests/Pods-GJTGojitoMvvmKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		253ACA8C6DF2FE0366518F62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GJTGojitoMvvmKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJTGojitoMvvmKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +47,6 @@
 		6003F59B195388D20070C39A /* GJTGojitoMvvmKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GJTGojitoMvvmKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* GJTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* GJTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* GJTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GJTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* GJTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* GJTGojitoMvvmKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJTGojitoMvvmKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,10 +57,9 @@
 		6C91532A0D7E163E50166EE9 /* Pods-GJTGojitoMvvmKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTGojitoMvvmKit_Example.release.xcconfig"; path = "Target Support Files/Pods-GJTGojitoMvvmKit_Example/Pods-GJTGojitoMvvmKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		913C87E9E654ADB36049FA1B /* Pods_GJTGojitoMvvmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJTGojitoMvvmKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D76B4AEB9602AA0DA4E3018 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D28523DCBFA254A1436BF114 /* GJTGojitoMvvmKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GJTGojitoMvvmKit.podspec; path = ../GJTGojitoMvvmKit.podspec; sourceTree = "<group>"; };
-		EBD7B8980591C7B70D782CCD /* Pods-GJTGojitoMvvmKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJTGojitoMvvmKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GJTGojitoMvvmKit_Tests/Pods-GJTGojitoMvvmKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D76B4AEB9602AA0DA4E3018 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B1FFC3E734CC0F43CCFCD444 /* libPods-GJTGojitoMvvmKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GJTGojitoMvvmKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28523DCBFA254A1436BF114 /* GJTGojitoMvvmKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GJTGojitoMvvmKit.podspec; path = ../GJTGojitoMvvmKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +70,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				44ECFDD1B53B9EA7EB6E8C1F /* Pods_GJTGojitoMvvmKit_Example.framework in Frameworks */,
+				9BA723852EFA3D997064E143 /* libPods-GJTGojitoMvvmKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +81,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2203F18277384060DC45CBAA /* Pods_GJTGojitoMvvmKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +115,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				0E4267E0700DAF09CAAFD854 /* Pods_GJTGojitoMvvmKit_Example.framework */,
-				913C87E9E654ADB36049FA1B /* Pods_GJTGojitoMvvmKit_Tests.framework */,
+				B1FFC3E734CC0F43CCFCD444 /* libPods-GJTGojitoMvvmKit_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,8 +126,6 @@
 				6003F59C195388D20070C39A /* GJTAppDelegate.h */,
 				6003F59D195388D20070C39A /* GJTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* GJTViewController.h */,
-				6003F5A6195388D20070C39A /* GJTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,10 +179,7 @@
 			children = (
 				1B9AB40EB51D830076E5B93E /* Pods-GJTGojitoMvvmKit_Example.debug.xcconfig */,
 				6C91532A0D7E163E50166EE9 /* Pods-GJTGojitoMvvmKit_Example.release.xcconfig */,
-				2B25369D4DF40ED25EDDCEC2 /* Pods-GJTGojitoMvvmKit_Tests.debug.xcconfig */,
-				EBD7B8980591C7B70D782CCD /* Pods-GJTGojitoMvvmKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +194,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4CD4F4EAA28BF0BF960E6A64 /* [CP] Embed Pods Frameworks */,
+				C3A84721C3DB9A8AFF11476D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,7 +209,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "GJTGojitoMvvmKit_Tests" */;
 			buildPhases = (
-				BE21EC194384D6015F42EE22 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -258,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,44 +281,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4CD4F4EAA28BF0BF960E6A64 /* [CP] Embed Pods Frameworks */ = {
+		C3A84721C3DB9A8AFF11476D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GJTGojitoMvvmKit_Example/Pods-GJTGojitoMvvmKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GJTGojitoMvvmKit/GJTGojitoMvvmKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GJTGojitoMvvmKit_Example/Pods-GJTGojitoMvvmKit_Example-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTGojitoMvvmKit.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJTGojitoMvvmKit_Example/Pods-GJTGojitoMvvmKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE21EC194384D6015F42EE22 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GJTGojitoMvvmKit_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GJTGojitoMvvmKit_Example/Pods-GJTGojitoMvvmKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E755C9DD0751D63358B10CC5 /* [CP] Check Pods Manifest.lock */ = {
@@ -365,7 +329,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* GJTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* GJTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +486,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B25369D4DF40ED25EDDCEC2 /* Pods-GJTGojitoMvvmKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +510,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBD7B8980591C7B70D782CCD /* Pods-GJTGojitoMvvmKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
