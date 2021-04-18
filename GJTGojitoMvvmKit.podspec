@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GJTGojitoMvvmKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Gojito 的 mvvm 的第二个框架'
 
 # This description is used to generate tags and improve search results.
