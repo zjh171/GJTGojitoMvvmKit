@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GJTGojitoMvvmKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GJTGojitoMvvmKit.'
+  s.summary          = 'Gojito 的 mvvm 的第二个框架'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Gojito 的第二个 mvvm 框架，是 GJTMvvmKit 的靠近业务层的设计
                        DESC
 
   s.homepage         = 'https://github.com/zjh171/GJTGojitoMvvmKit'
