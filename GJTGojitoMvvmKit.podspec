@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
+  s.platform         = :ios
+
   s.description      = <<-DESC
 Gojito 的第二个 mvvm 框架，是 GJTMvvmKit 的靠近业务层的设计
                        DESC
