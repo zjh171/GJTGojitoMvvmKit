@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GJTGojitoMvvmKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Gojito 的 mvvm 的第二个框架'
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios
 
   s.description      = <<-DESC
-Gojito 的第二个 mvvm 框架，是 GJTMvvmKit 的靠近业务层的设计
+Gojito 是 mvvm 框架的 通用层 设计，是 GJTMvvmKit 的靠近业务层的部分
                        DESC
 
   s.homepage         = 'https://github.com/zjh171/GJTGojitoMvvmKit'
@@ -40,8 +40,8 @@ Gojito 的第二个 mvvm 框架，是 GJTMvvmKit 的靠近业务层的设计
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'GJTMvvmKit','~>0.0.6'
+   s.dependency 'GJTMvvmKit','>0.0.6'
    s.dependency "Masonry"
-   s.dependency "GJTAdditionKit",'~>0.0.9'
+   s.dependency "GJTAdditionKit",'>=0.0.9'
    s.dependency "GJTControlsKit"
 end
